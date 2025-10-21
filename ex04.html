@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PA - ex05</title>
+    <script type="text/javascript" src="js/ex04.js"></script>
+    <link rel="stylesheet" href="css/ex04.css">
+</head>
+<body>
+    <h1>Progressão Aritmética (PA)</h1>
+
+    <p>
+        <label>Primeiro termo (a1)</label>
+        <input type="number" id="a1" step="1" placeholder="Ex: 2"><br><br>
+
+        <label>Razão</label>
+        <input type="number" id="razao" step="1" placeholder="Ex: 3"><br><br>
+
+        <label>Quantidade de termos</label>
+        <input type="number" id="qtd" step="1" placeholder="Ex: 5">
+
+        <input type="button" id="btn_gerar" value="Gerar PA" onclick="gerarPA()">
+    </p>
+
+    <p>
+        <div id="resultado"></div>
+    </p>
+</body>
+</html>

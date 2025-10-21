@@ -3,8 +3,8 @@ function verificar() {
     const senha = document.getElementById('senha').value;
     const out = document.getElementById('resultado');
 
-    // credenciais de exemplo
-    const usuarioValido = 'admin';
+
+    const usuarioValido = 'Lívia';
     const senhaValida = '1234';
 
     out.textContent = '';
