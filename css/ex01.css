@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+    color:#222;
+}
+input[type="number"], input[type="text"], input[type="password"]{
+    padding:6px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:220px;
+}
+input[type="button"]{
+    padding:6px 10px;
+    background:#1976d2;
+    color:#fff;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+#resultado{
+    margin-top:12px;
+    font-weight:600;
+}
+
+.imc-abaixo{ color:blue; }
+.imc-normal{ color:green; }
+.imc-sobrepeso{ color:orange; }
+.imc-obesidade{ color:red; }

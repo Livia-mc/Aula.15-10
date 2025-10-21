@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login - ex04</title>
+    <script type="text/javascript" src="js/ex03.js"></script>
+    <link rel="stylesheet" href="css/ex03.css">
 </head>
 <body>
-    
+    <h1>Login</h1>
+
+    <p>
+        <label>Login</label>
+        <input type="text" id="login" placeholder="usuário"><br><br>
+
+        <label>Senha</label>
+        <input type="password" id="senha" placeholder="senha"><br><br>
+
+        <input type="button" id="btn_entrar" value="Entrar" onclick="verificar()">
+    </p>
+
+    <p>
+        <div id="resultado"></div>
+    </p>
 </body>
 </html>
